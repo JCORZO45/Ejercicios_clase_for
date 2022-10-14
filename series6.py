@@ -5,8 +5,8 @@ for i in range(1,n+1):
     
 
     if i<n:
-        s=s+"1/"+str((i+1)*i)+ ", "
+        s=s+str(3+(i-1)*5)+ ", "
     else:
-        s=s+"1/" +str((i+1)*i)
+        s=s +str(3+(i-1)*5)
 
 print(s)
